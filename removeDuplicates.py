@@ -54,8 +54,8 @@ def removeDuplicates(s):
 
 def removeDuplicates(s):
      
-    # This list will act as a stack to hold the string that has no 
-    # duplicate characters
+    # This list will act as a stack to hold the characters of the string 
+    # that has no adjacent duplicates
     
     no_dupes = []
      
