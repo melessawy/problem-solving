@@ -68,14 +68,14 @@ def removeDuplicates(s):
     while x < len(s):
         
         
-        #pick the first character and add it to the stack, given that it 
+        #pick a character and add it to the stack, given that it 
         #doesn't match the last character added to the stack
         
         if len(no_dupes)== 0 or s[x] != no_dupes[-1]:
             no_dupes.append(s[x])
             x = x + 1
              
-        #if the first character does match the last character added to the
+        #if the character does match the last character added to the
         #stack, then remove that character from the stack
         
         else:
