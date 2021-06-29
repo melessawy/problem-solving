@@ -41,9 +41,6 @@ def countSmaller(nums):
 
 #binary search attempt - doesn't meet Leetcode time requirements
 
-# full answer with binary search
-# doesn't pass leetcode's time limit
-
 
 def countSmaller(nums):
     
